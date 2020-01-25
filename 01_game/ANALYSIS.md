@@ -50,7 +50,7 @@ I tried to somehow pass the score at the end of the level back to the Main class
 already exists. For the ball, it would somehow get stuck at the edge of the screen sometimes an vibrate upward and out of the scene. I'm not too sure why; 
 it could be due to my collision checking. However, this happens rarely and can be reset with the cheat code, so it's not a huge issue, albeit an annoying one.
 
-**Describing the "bouceOffBrick" method in the Ball class**
+**Describing the "bounceOffBrick" method in the Ball class**
 ```java
 /**
  * Changes the direction of the ball's travel when the ball comes in contact with a brick
@@ -286,12 +286,12 @@ ball's behavior is controlled (since it'll be where we expect it to be).
 
 **Design Decision 2: Having the Rectangle and Paddle Classes Extend the Rectangle Class**
 * I'm also pretty happy with this design decision because I tried to keep my code DRY and shows that I started to think about the hierarchy and inheritance. 
-However, it was difficult to figure out how to make the classes share funcionalities (both are Rectangle objects, both need to have positions, etc) but also 
+However, it was difficult to figure out how to make the classes share functionalities (both are Rectangle objects, both need to have positions, etc) but also 
 take into account their unique behaviors.
 * I assumed that the Bricks and Paddles would be Rectangle objects/Rectangle shapes, so if someone wanted to make it an Image instead, it would definitely
 have a global impact on the program. 
 * I originally considered just copy pasting code from the Paddle class to the Brick class (no class extension) and tweaking it a little bit so that the Brick's code would be more aligned 
-with the brick's behavior since I didn't completey understand how inheritance works (and I still don't really). 
+with the brick's behavior since I didn't completely understand how inheritance works (and I still don't really). 
 * Comparison:  
     * Pros of having the Paddle and Brick Class extend the Rectangle Class: 
         * Easier to add the objects as nodes to the scene
