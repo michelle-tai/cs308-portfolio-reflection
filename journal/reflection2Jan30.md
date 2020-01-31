@@ -29,6 +29,8 @@ like genetics. Encapsulation is similar to abstraction, but its more with packag
 
 
 #### Reflection
+* I originally thought that this assignment would be really hard, and while it's proving to be difficult, 
+things are going more smoothly then I expected. We'll see how I feel about this Monday night though...
 
 ##### What was difficult about your work this week and why?
 * I thought planning how we wanted to approach the Cell Society project was pretty difficult. There were
