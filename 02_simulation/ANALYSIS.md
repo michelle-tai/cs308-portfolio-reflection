@@ -2,7 +2,7 @@
 
 ### Name: Michelle Tai (mrt36)
 
-> This is the link to the [assignment](http://www.cs.duke.edu/courses/compsci308/current/assign/02_simulation/):
+> This is the link to the [assignment](http://www.cs.duke.edu/courses/compsci308/current/assign/02_simulation/)
 
 
 ## Overall Design
@@ -184,8 +184,8 @@ A feature that can be improved is the SimulationXML class, which holds all the p
 Some things I wrestled with when writing this class is that it's not an active class, and that when I added
 more XML tags, the constructor for the class became longer and longer. I thought about how to make it so that
 there weren't as many parameters in the constructor, but the only solution I could think of were to 
-create setter methods instead, but I didn't want any other parts of the program outside of the XMLPArser to be able
-to set or change the SimulationXML's informations. Creating setter methods would allow outside classes to possible
+create setter methods instead, but I didn't want any other parts of the program outside of the XMLParser to be able
+to set or change the SimulationXML's information. Creating setter methods would allow outside classes to possible
 mess up the information about the simulation that the SimulationXML is holding, and I didn't want to take 
 that chance. However, thinking about it now, I could make setter methods that were protected so only classes within 
 the xml package could change the values of the simulation that were parsed from an xml file. This way, classes
@@ -325,14 +325,7 @@ hold all the rules, or code the simulation rules into different classes.
   * Have to write a new class for each new simulation type, so not sustainable if we want 100 different simulation types
 * I prefer the Simulation superclass and having each simulation be a subclass because it follows the 
 open/close design principle and suits our needs the best. While it won't be super sustainable if we had a 1000
-simualation types to implement, we arent't going to implement that many, which makes this design perfect. 
-
-
-Here is a graphical look at my design:
-
-![This is cool, too bad you can't see it](online-shopping-uml-example.png "An alternate design")
-
-made from [a tool that generates UML from existing code](http://staruml.io/).
+simulation types to implement, we arent't going to implement that many, which makes this design perfect. 
 
 
 ## Conclusions
@@ -344,7 +337,8 @@ more features.
 constructor parameter's much longer and less readable. I'm not too sure how to resolve this issue though. 
 * To be a better designer in the next project, I need to:
   * Start being more confident in myself. Since I'm nost as confident, I didn't try to write a lot of code in fear
-  of breaking things, and I didn't try to merge my code in fear of messing up. 
+  of breaking things, and I didn't try to merge my code in fear of messing up. Also, starting actually
+  writing the comments as I code because it'll make everyone's lives easier
   * Keep communicating a lot with my team and checking in on their progress, as well as weighing pros
   and cons of ideas and organizing teams meetings to talk through issues and ideas. 
   * Stop being not confident and stop being passive; I need to be more assertive about my skills and trust
