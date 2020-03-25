@@ -1,0 +1,15 @@
+to octagon [ ]
+[ repeat 8 [ fd 100 right 45 ] ]
+
+to coolShape [ ]
+[ repeat 8 [ octagon right 45 ] ]
+
+tell [ 2 ] (move forward with arrow key)
+
+tell [ 1 2 ]
+
+coolShape
+
+SETPC 4
+rt 22.5
+coolShape

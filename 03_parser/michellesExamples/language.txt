@@ -1,0 +1,36 @@
+setbg 2
+
+change to italian
+
+ripitere 6
+[
+  ripitere 2
+  [
+    ripitere 30
+    [
+      ava 6
+      des 2
+    ]
+    des 120
+  ]
+  des 60
+]
+
+change to portuguese
+
+repetir 18 [
+  fr 50
+  direita 150
+  fr 60
+  direita 100
+  fr 30
+  direita 90
+]
+
+
+use arrowkeys to move
+
+change image to duvall
+
+press play button
+
