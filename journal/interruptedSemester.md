@@ -50,3 +50,13 @@ is going on, and I'm just afraid for the future. How many more people will have 
 before things start getting better? How long will we need to live like this? 
 Will my internship be cancelled? Will I be able to succeed in my classes?
 Will my family be okay? I'm just lost. But at least at home, I have my dog and good food to eat.
+
+The acts of racism towards Asian-Americans and Asians have been scaring me too. I'm scared to leave my house sometimes, 
+in case someone attacks me because of how I look. It's just so frustrating to see how America is. In Asian-American
+communities on campus, we always have taken anti-blackness into account since it's a very real thing, but I feel like
+all minorities (and majorities) are just scapegoating Asians for what has happened. Like yes, it did originate from China
+and I'm sorry for that, but we're not all like that. We don't have control over what happened there. When Ebola was a thing, 
+no one was telling African Americans to "go back where they came from" or called it the "African Virus." White settlers
+brought smallpox and infected the Native Americans, but no one seems to talk about that part of history + talk about Caucasians
+in a bad light. Why are Asians picked on? Is it because they're seen as submissive? I don't know. I'm just scared for my
+family and me and my friends and just everyone because of the state of the USA and the coronavirus. 
